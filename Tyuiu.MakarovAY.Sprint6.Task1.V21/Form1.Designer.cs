@@ -151,6 +151,7 @@
             textBoxResult.Location = new Point(0, 22);
             textBoxResult.Multiline = true;
             textBoxResult.Name = "textBoxResult";
+            textBoxResult.ScrollBars = ScrollBars.Vertical;
             textBoxResult.Size = new Size(288, 376);
             textBoxResult.TabIndex = 0;
             textBoxResult.TextChanged += textBox1_TextChanged_1;
