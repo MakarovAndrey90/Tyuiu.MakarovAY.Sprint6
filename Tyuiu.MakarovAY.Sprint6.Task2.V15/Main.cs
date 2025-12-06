@@ -74,7 +74,7 @@ namespace Tyuiu.MakarovAY.Sprint6.Task2.V15
                 Grafik.Plot.YLabel("Ось Y");
                 Grafik.Refresh();
             }
-            catch 
+            catch
             {
                 MessageBox.Show("Введите целое число в поле X!", "Ошибка",
                                 MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -86,6 +86,11 @@ namespace Tyuiu.MakarovAY.Sprint6.Task2.V15
                     "Информация о студенте",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Information);
+        }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

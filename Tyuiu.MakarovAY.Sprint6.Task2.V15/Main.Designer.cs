@@ -223,6 +223,7 @@
             Controls.Add(Grafik);
             Name = "Main";
             Text = "Form1";
+            Load += Main_Load;
             groupBoxTextCondition.ResumeLayout(false);
             groupBoxTextCondition.PerformLayout();
             groupBox1.ResumeLayout(false);
