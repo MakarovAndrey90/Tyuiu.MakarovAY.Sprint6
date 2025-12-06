@@ -11,6 +11,7 @@ namespace Tyuiu.MakarovAY.Sprint6.Task2.V15.Lib
             int count = 0;
 
             for (int x = startValue; x <= stopValue; x++)
+            {
                 if ((3.0 * x + 1.2) == 0)
                 {
                     res[count] = 0;
@@ -21,6 +22,7 @@ namespace Tyuiu.MakarovAY.Sprint6.Task2.V15.Lib
                     res[count] = Math.Round(((2.0 * Math.Sin(x) / (3.0 * x + 1.2)) + Math.Cos(x) - 7.0 * x * 2.0), 2);
                     count++;
                 }
+            }
             return res;
         }
     }
