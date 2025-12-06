@@ -1,6 +1,6 @@
 ﻿namespace Tyuiu.MakarovAY.Sprint6.Task0.V21
 {
-    partial class Form1
+    partial class FormMain
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             ButtonDone = new Button();
             TextBoxRes = new TextBox();
             textBoxVarX = new TextBox();
