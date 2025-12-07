@@ -14,10 +14,9 @@ namespace Tyuiu.MakarovAY.Sprint6.Task6.V17.Lib
                     if (!string.IsNullOrWhiteSpace(line))
                     {
                         string[] words = line.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
-                        // Добавляем КАЖДОЕ третье слово (индексы 2, 5, 8...)
-                        for (int i = 2; i < words.Length; i += 3)
+                        if (words.Length >= 3)
                         {
-                            resStr += (words[i] + " ");
+                            resStr += words[2] + " ";
                         }
                     }
                 }
