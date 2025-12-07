@@ -35,15 +35,9 @@ namespace Tyuiu.MakarovAY.Sprint6.Task5.V4.Lib
                     }
                 }
             }
-
-            // Округляем вещественные числа
-            for (int i = 0; i < numbers.Count; i++)
-            {
-                if (Math.Abs(numbers[i] % 1) > 0.0000001) // если вещественное
-                {
-                    numbers[i] = Math.Round(numbers[i], 3);
-                }
-            }
+            numbers = numbers
+        .Where(num => Math.Abs(num % 1) < 0.0000001)
+        .ToList();
 
             return numbers.ToArray();
         }
